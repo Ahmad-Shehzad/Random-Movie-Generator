@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff19235a"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/filmButton"
+        android:layout_width="100.0dip"
+        android:layout_height="100.0dip"
+        android:layout_marginLeft="155.0dip"
+        android:layout_marginTop="316.0dip"
+        android:layout_marginRight="156.0dip"
+        android:layout_marginBottom="315.0dip"
+        android:background="#ffff0057"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="203.0dip"
+        android:layout_height="117.0dip"
+        android:layout_marginLeft="104.0dip"
+        android:layout_marginTop="190.0dip"
+        android:layout_marginRight="104.0dip"
+        android:layout_marginBottom="424.0dip"
+        android:fontFamily="@font/archivo_narrow"
+        android:gravity="center"
+        android:text=" Click The Button For a Random Film"
+        android:textAllCaps="false"
+        android:textColor="#ffffffff"
+        android:textSize="30.0sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
